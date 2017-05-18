@@ -8,7 +8,7 @@ namespace ExamplePlayer
     public class ExamplePlayer : ISimplePlayer
     {
         private Card[] cards;
-        public string PlayerName { get { return "Example Bot"; } }
+        public string PlayerName { get { return "Catherine"; } }
 
         public void ReceiveCards(Card[] cards)
         {
@@ -17,7 +17,7 @@ namespace ExamplePlayer
 
         public Card[] DiscardCards()
         {
-            return new Card[] { cards[0], cards[1] };
+            return new Card[] { cards[1], cards[2] };
         }
     }
 }
