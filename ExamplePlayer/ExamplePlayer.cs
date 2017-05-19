@@ -8,7 +8,7 @@ namespace ExamplePlayer
     public class ExamplePlayer : ISimplePlayer
     {
         private Card[] cards;
-        public string PlayerName { get { return "Catherine"; } }
+        public string PlayerName { get { return "Example Player"; } }
 
         public void ReceiveCards(Card[] cards)
         {
